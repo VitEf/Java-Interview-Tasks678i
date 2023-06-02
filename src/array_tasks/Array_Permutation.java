@@ -10,6 +10,11 @@ public class Array_Permutation {
     Given an array of 3 characters print all permutation combinations from the given characters
     */
 
+    public static void main(String[] args) {
+        char[] arr = new char[]{'q', 'r', '5' };
+        printPermutation(arr);
+    }
+
     public static void printPermutation(char[] ch) {
         for (String s : permutation(ch)) {
             System.out.println(Arrays.toString(s.toCharArray()));

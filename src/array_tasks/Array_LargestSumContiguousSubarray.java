@@ -11,6 +11,11 @@ public class Array_LargestSumContiguousSubarray {
 
      */
 
+    public static void main(String[] args) {
+        int[] arr = new int[]{-2,1,-3,4,-1,2,1,-5,4};
+        System.out.println("maxSum(arr) = " + maxSum(arr));
+    }
+
     public static int maxSum(int[] arr) {
         int max = 0, temp = 0;
 

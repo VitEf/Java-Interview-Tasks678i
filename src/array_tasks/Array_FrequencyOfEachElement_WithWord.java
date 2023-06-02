@@ -17,7 +17,7 @@ write a program that should count each number and prints a sentence to say how m
 
 
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,3,2,1,3,2,2,2,4};
+        int[] arr = {1,2,3,4,3,5,2,1,3,2,2,2,4};
         String[] words = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "more than ten"};
 
         //solution1:
